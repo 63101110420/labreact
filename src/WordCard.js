@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import _, { attempt } from 'lodash';
+import _ , { attempt } from 'lodash';
 import CharaacterCard from './CharacterCard';
 
 const prepareStateFromWord = given_word =>{
