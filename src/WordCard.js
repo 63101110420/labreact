@@ -27,6 +27,7 @@ export default function WordCard(props){
         if(guess.length == state.word.length){
             if(guess == state.word){
                 console.log('Congret!!!')
+                console.log('Facebook')
                 setState({...state, completed: true})
                 setState.attempt = 1;
             }else{
